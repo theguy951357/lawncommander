@@ -1,0 +1,11 @@
+:root{
+    --sand: #f0ead2;
+    --lightgreen: #dde5b6;
+    --lawngreen: #adc178;
+    --lightbrown: #a98467;
+    --soilbrown: #6c584c;
+}
+
+body{
+    background-color: var(--sand);
+}
