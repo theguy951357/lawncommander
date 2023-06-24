@@ -9,3 +9,20 @@
 body{
     background-color: var(--sand);
 }
+
+.primarycolor{
+    color: var(--lawngreen);
+}
+
+.primarycolorlight{
+    color: var(--lightgreen);
+}
+
+.secondarycolor{
+    color: var(--soilbrown);
+}
+
+.secondarycolorlight{
+    color: var(--lightbrown);
+}
+
