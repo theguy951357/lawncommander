@@ -14,15 +14,32 @@ body{
     color: var(--lawngreen);
 }
 
+.primarybackgroundcolor{
+    background-color: var(--lawngreen);
+}
+
 .primarycolorlight{
     color: var(--lightgreen);
+}
+
+.primarybackgroundcolorlight{
+    background-color: var(--lightgreen);
 }
 
 .secondarycolor{
     color: var(--soilbrown);
 }
 
+.secondarybackgroundcolor{
+    background-color: var(--soilbrown);
+}
+
+
 .secondarycolorlight{
+    color: var(--lightbrown);
+}
+
+.secondarybackgroundcolorlight{
     color: var(--lightbrown);
 }
 
