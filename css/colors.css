@@ -1,45 +1,49 @@
 :root{
-    --sand: #d5d0bc;
-    --lightgreen: #dde5b6;
-    --lawngreen: #adc178;
-    --lightbrown: #a98467;
-    --soilbrown: #6c584c;
+    --color1: #f8f9fa;
+    --color2: #e9ecef ;
+    --color3: #dee2e6 ;
+    --color4: #ced4da ;
+    --color5: #adb5bd ;
+    --color6: #6c757d ;
+    --color7: #495057 ;
+    --color8: #343a40 ;
+    --color9: #212529 ;
 }
 
 body{
-    background-color: var(--sand);
+    background-color: var(--color1);
 }
 
 .primarycolor{
-    color: var(--lawngreen);
+    color: var(--color9);
 }
 
 .primarybackgroundcolor{
-    background-color: var(--lawngreen);
+    background-color: var(--color9);
 }
 
 .primarycolorlight{
-    color: var(--lightgreen);
+    color: var(--color7);
 }
 
 .primarybackgroundcolorlight{
-    background-color: var(--lightgreen);
+    background-color: var(--color7);
 }
 
 .secondarycolor{
-    color: var(--soilbrown);
+    color: var(--color6);
 }
 
 .secondarybackgroundcolor{
-    background-color: var(--soilbrown);
+    background-color: var(--color6);
 }
 
 
 .secondarycolorlight{
-    color: var(--lightbrown);
+    color: var(--color5);
 }
 
 .secondarybackgroundcolorlight{
-    background-color: var(--lightbrown);
+    background-color: var(--color5);
 }
 
