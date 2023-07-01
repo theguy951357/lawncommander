@@ -40,6 +40,6 @@ body{
 }
 
 .secondarybackgroundcolorlight{
-    color: var(--lightbrown);
+    background-color: var(--lightbrown);
 }
 
