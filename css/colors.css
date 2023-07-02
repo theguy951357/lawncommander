@@ -31,19 +31,19 @@ body{
 }
 
 .secondarycolor{
-    color: var(--color6);
+    color: var(--color3);
 }
 
 .secondarybackgroundcolor{
-    background-color: var(--color6);
+    background-color: var(--color3);
 }
 
 
 .secondarycolorlight{
-    color: var(--color5);
+    color: var(--color2);
 }
 
 .secondarybackgroundcolorlight{
-    background-color: var(--color5);
+    background-color: var(--color2);
 }
 
