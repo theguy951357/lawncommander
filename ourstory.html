@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lawn Commander Property Services</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/w3.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/themes.css">
+        <link rel="icon" href="images/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="myPage">
+
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-left-align secondarybackgroundcolorlight">
+                <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+                <a href="index.html" class="w3-bar-item w3-button secondarycolor"><img src="images/logo.png" alt="logo" width="20%" height="20%"></a>
+                <a href="services.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Services</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Our Story</a>
+                <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+            </div>
+
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="w3-bar-block w3-theme-d1 w3-hide w3-hide-large w3-hide-medium">
+                <a href="services.html" class="w3-bar-item w3-button">Services</a>
+                <a href="#" class="w3-bar-item w3-button">Our Story</a>
+                <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
+
+        <!-- Image Header -->
+        <div class="w3-display-container w3-animate-opacity">
+            <div class="centered"><h1 class="secondarycolor textshadow">Lawn Commander Property Services</h1></div>
+            <img src="images/SuburbMountainLawn.jpeg" alt="grass" style="width:100%;min-height:350px;max-height:600px;">
+        </div>
+
+        
+
+        <!-- Work Row -->
+        <div class="w3-row-padding w3-padding-64 w3-theme-d5 " id="work">
+
+            <div class="w3-quarter">
+                <h2>Our Story</h2>
+                <p>Lawn Commander Property Services has been serving the Asheville, Candler, Canton, and Waynesville areas since 1992 when owner Stacy Lanning purchased his first commercial grade lawn mower.  A rebel who wanted to do his own thing, Stacy saw property maintenance as a way to manage his own time and care for his good neighbors of Western North Carolina. Stacy thrives on the freedom of the open air and the pride he takes in his honest, hard work.  What began as a way to be his own boss, has grown into a legacy he wants to pass to his son, Trent so that he too can live independently and thrive in these mountains, or as Stacy calls it, “The Greatest Place on Earth”. </p>
+            </div>
+
+            <div class="w3-quarter">
+                <div class="w3-card w3-white">
+                    <div class="w3-container">
+                        <h3 class="accentcolor2">Jack</h3>
+                        <p>Highly highly recommend lawn commander! Stacy did a wonderful job, I will be referring him and his services to everyone I know and I will be using him for years to come. Very professional and kind. Thank you for making my lawn look wonderful.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-quarter">
+                <div class="w3-card w3-white">
+                    <div class="w3-container">
+                        <h3 class="accentcolor1">Lynn D</h3>
+                        <p>Stacey responded to our request for leaf removal quickly, and showed up and did an excellent job. Would highly recommend him for any lawn care one would need. Will use him again.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-quarter">
+                <div class="w3-card w3-white">
+                    <div class="w3-container">
+                        <h3 class="accentcolor2">Beverly D</h3>
+                        <p>So glad I called Lawn Commander after being referred by a neighbor.Thanks to Stacy for surprising me with such a great job clearing all the leaves from our large front yard. It was a miracle that you finished before the rain started! I appreciated your kindness and professionalism. Thank you for your service!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>      
+
+        
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+            <h4>Follow Us</h4>
+            <a class="w3-button w3-large w3-blue" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a class="w3-button w3-large w3-red" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+            <a class="w3-button w3-large w3-blue" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+            <a class="w3-button w3-large w3-red" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+            <a class="w3-button w3-large w3-blue w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+            <p>Designed by <img src="images/fulllogo_transparent.png" alt="crispspicestudios logo" style="width:10%;min-height:35px;max-height:60px;"></p>
+
+            <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+                <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+                <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+                <i class="fa fa-chevron-circle-up"></i></span></a>
+            </div>
+        </footer>
+
+        <script>
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,71 @@
+:root{
+    --color1: #f8f9fa;
+    --color2: #e9ecef ;
+    --color3: #dee2e6 ;
+    --color4: #ced4da ;
+    --color5: #adb5bd ;
+    --color6: #6c757d ;
+    --color7: #495057 ;
+    --color8: #343a40 ;
+    --color9: #212529 ;
+    --blue:   #1565c0 ;
+    --red:    #c62828 ;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+.primarycolor{
+    color: var(--color9);
+}
+
+.primarybackgroundcolor{
+    background-color: var(--color9);
+}
+
+.primarycolorlight{
+    color: var(--color7);
+}
+
+.primarybackgroundcolorlight{
+    background-color: var(--color7);
+}
+
+.secondarycolor{
+    color: var(--color3);
+}
+
+.secondarybackgroundcolor{
+    background-color: var(--color3);
+}
+
+
+.secondarycolorlight{
+    color: var(--color2);
+}
+
+.secondarybackgroundcolorlight{
+    background-color: var(--color2);
+}
+
+.accentcolor1{
+    color: var(--blue)
+}
+
+.accentbackgroundcolor1{
+    background-color: var(--blue);
+}
+
+.accentcolor2{
+    color: var(--red)
+}
+
+.accentbackgroundcolor2{
+    background-color: var(--red);
+}
+
+.textshadow{
+    text-shadow: 2px 2px var(--color9);
+}
+
