@@ -53,7 +53,15 @@ body{
     color: var(--blue)
 }
 
+.accentbackgroundcolor1{
+    background-color: var(--blue);
+}
+
 .accentcolor2{
     color: var(--red)
+}
+
+.accentbackgroundcolor2{
+    background-color: var(--red);
 }
 
