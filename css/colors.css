@@ -8,6 +8,8 @@
     --color7: #495057 ;
     --color8: #343a40 ;
     --color9: #212529 ;
+    --blue:   #1565c0 ;
+    --red:    #c62828 ;
 }
 
 body{
@@ -45,5 +47,13 @@ body{
 
 .secondarybackgroundcolorlight{
     background-color: var(--color2);
+}
+
+.accentcolor1{
+    color: var(--blue)
+}
+
+.accentcolor2{
+    color: var(--red)
 }
 
