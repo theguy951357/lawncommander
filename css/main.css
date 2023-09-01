@@ -4,3 +4,8 @@
     left: 50%;
     transform: translate(-50%, -20%);
   }
+
+  .textshadow{
+    text-shadow: 2px 2px var(--color9);
+}
+
