@@ -1,6 +1,6 @@
 .centered {
   position: absolute;
-  top: 50%;
+  top: 0%;
   left: 50%;
   transform: translate(-50%, -20%);
 }
@@ -11,5 +11,24 @@
 
 .uniform-width{
   width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/close-up-american-flag.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  filter:grayscale(100%)
 }
 
