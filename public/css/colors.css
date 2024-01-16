@@ -66,19 +66,19 @@ body{
 }
 
 .redshadow{
-    box-shadow: 2px 2px 5px var(--red);
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 var(--red);
 }
 
 .blueshadow{
-    box-shadow: 2px 2px var(--blue);
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 var(--blue);
 }
 
 .red-hover-shadow:hover{
-    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 var(--red)
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 var(--red);
 }
 
 .blue-hover-shadow:hover{
-    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 var(--blue)
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 var(--blue);
 }
 
 
